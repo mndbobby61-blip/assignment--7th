@@ -15,13 +15,13 @@ const Footer = () => {
                 <div className='mt-6'>Social Links</div>
                 <div className="flex justify-center gap-4 mt-6">
                     <div className="w-10 h-10 bg-white text-black flex items-center justify-center rounded-full">
-                        <img src="/src/assets/instagram.png" alt="Instagram" className="w-5 h-5" />
+                        <img src="/assets/instagram.png" alt="Instagram" className="w-5 h-5" />
                     </div>
                     <div className="w-10 h-10 bg-white text-black flex items-center justify-center rounded-full">
-                        <img src="/src/assets/facebook.png" alt="Facebook" className="w-5 h-5" />
+                        <img src="/assets/facebook.png" alt="Facebook" className="w-5 h-5" />
                     </div>
                     <div className="w-10 h-10 bg-white text-black flex items-center justify-center rounded-full">
-                        <img src="/src/assets/twitter.png" alt="twitter" className="w-5 h-5" />
+                        <img src="/assets/twitter.png" alt="Twitter" className="w-5 h-5" />
                     </div>
                 </div>
 

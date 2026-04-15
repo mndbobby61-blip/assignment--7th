@@ -1,7 +1,19 @@
+"use client";
+
 import React from 'react';
 import { BsPlus } from 'react-icons/bs';
 
-const Banner = () => {
+const Banner = ({ friends, setFriends }) => {
+    const handleAddFriend = () => {
+        const newFriend = {
+            name: "John",
+            status: "On Track",
+            tag: "WORK",
+            img: "https://i.pravatar.cc/100"
+        };
+
+        setFriends([...friends, newFriend]);
+    };
     return (
         <div className="text-center py-16 px-4 bg-gray-50">
 
@@ -14,7 +26,7 @@ const Banner = () => {
                 the relationships that matter most.
             </p>
 
-            <button className="mt-6 bg-green-800 text-white px-6 py-2 rounded-md flex items-center gap-2 mx-auto">
+            <button onClick={handleAddFriend} className="mt-6 bg-green-800 text-white px-6 py-2 rounded-md flex items-center gap-2 mx-auto">
                 <BsPlus />
                 Add a Friend
             </button>
