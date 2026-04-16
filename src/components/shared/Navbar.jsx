@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import logoImg from "@/assets/logo.png";
 import Image from "next/image";
 import MyLink from "./MyLink";
@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <nav className="border-b bg-white">
-      <div className="flex justify-between items-center py-3 px-6 max-w-7xl mx-auto">
+      <div className="flex justify-between items-center py-1 px-6 max-w-7xl mx-auto">
 
         {/* Logo */}
         <Image
