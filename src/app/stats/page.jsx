@@ -58,7 +58,7 @@ export default function StatsPage() {
 
         {/*  Chart */}
         <div className="w-full flex justify-center">
-          <div style={{ width: "100%", height: 300 }}>
+          <div style={{ width: "100%", height: 400 }}>
 
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
