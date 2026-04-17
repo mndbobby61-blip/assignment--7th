@@ -14,7 +14,7 @@ const Stats = ({ friends }) => {
     { value: total, label: "Total Friends" },
     { value: onTrack, label: "On Track" },
     { value: needAttention, label: "Need Attention" },
-    { value: "12", label: "Interactions This Month" }, // screenshot অনুযায়ী number
+    { value: "12", label: "Interactions This Month" }, 
   ];
 
   return (
@@ -39,7 +39,6 @@ const Stats = ({ friends }) => {
 
       </div>
 
-      {/* divider line like screenshot */}
       <div className="border-t mt-8"></div>
 
     </div>
